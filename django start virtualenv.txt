@@ -1,0 +1,12 @@
+
+After creating a project folder, turn that into the virtualenv by running:
+C:\Users\Name\...name of project folder...> C:\Users\Mr Lee\Anaconda3 -m venv ...name of virtualenv...
+
+Change to working directory by running:
+cd C:\Users\Mr Lee\Documents\django
+
+Start your virtual environment by running:
+dj1\Scripts\activate
+
+Start the webserver by running:
+python manage.py runserver
