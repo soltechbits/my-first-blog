@@ -10,3 +10,11 @@ dj1\Scripts\activate
 
 Start the webserver by running:
 python manage.py runserver
+
+Setup
+git config --global user.name soltechbits
+git config --global user.email sol_techbits@outlook.com
+git remote add origin https://github.com/soltechbits/my-first-blog.git
+git status
+git add --all .
+git commit -m "My Django app, first commit"

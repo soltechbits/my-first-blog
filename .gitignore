@@ -4,3 +4,4 @@ dj1
 db.sqlite3
 /static
 .DS_Store
+django start virtualenv.txt
