@@ -18,3 +18,9 @@ git remote add origin https://github.com/soltechbits/my-first-blog.git
 git status
 git add --all .
 git commit -m "My Django app, first commit"
+
+PythonAnywhere
+virtualenv --python=python3.4 dj1
+
+cd my-first-blog
+source dj1/bin/activate
