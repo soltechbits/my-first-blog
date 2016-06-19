@@ -19,8 +19,14 @@ git status
 git add --all .
 git commit -m "My Django app, first commit"
 
-PythonAnywhere
-virtualenv --python=python3.4 dj1
+PythonAnywhere - Setup
+virtualenv --python=python3.4 myvenv
+source myvenv/bin/activate
+pip install django~=1.9.0
+python manage.py migrate
 
+PythonAnywhere - Activate
 cd my-first-blog
-source dj1/bin/activate
+source myvenv/bin/activate
+
+git clone https://github.com/soltechbits/my-first-blog.git
